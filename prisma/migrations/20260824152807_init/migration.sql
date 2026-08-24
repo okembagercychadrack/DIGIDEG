@@ -17,6 +17,7 @@ CREATE TABLE "Agent" (
     "cardColor" TEXT NOT NULL DEFAULT '#0A2472',
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
+
     CONSTRAINT "Agent_pkey" PRIMARY KEY ("id")
 );
 
